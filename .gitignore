@@ -1,0 +1,29 @@
+# Unity 자동 생성 폴더
+unity/[Ll]ibrary/
+unity/[Tt]emp/
+unity/[Oo]bj/
+unity/[Bb]uild/
+unity/[Bb]uilds/
+unity/[Ll]ogs/
+unity/[Uu]ser[Ss]ettings/
+unity/[Rr]ecordings/
+unity/Assets/CapturedEvidence/
+unity/*.csproj
+unity/*.sln
+unity/*.slnx
+
+# 에셋 스토어 에셋 (재배포 불가, README 참고해 직접 임포트)
+unity/Assets/Environment/
+unity/Assets/Intruder/
+unity/Assets/Drone/
+unity/Assets/Surveillance Camera/
+unity/Assets/TextMesh Pro/
+unity/Assets/Fonts/
+
+# Python
+__pycache__/
+*.pt
+.venv/
+
+.DS_Store
+Thumbs.db

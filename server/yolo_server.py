@@ -1,12 +1,14 @@
 """드론 영상 프레임을 받아 사람(침입자)을 탐지하는 YOLO 서버.
 
+원본 서버 코드가 남아 있지 않아 Unity Connection_Manager의 통신 규격에 맞춰 다시 작성했다.
+
 Unity의 Connection_Manager가 드론 카메라 화면을 JPEG로 캡처해
 POST /detect 로 보내면, 사람(COCO class 0) 탐지 결과를 JSON 배열로 돌려준다.
 
     응답 예: [{"box": [x1, y1, x2, y2], "confidence": 0.87}, ...]
     (box는 원본 프레임 기준 픽셀 좌표)
 
-실행:  python yolo_server.py        → http://127.0.0.1:5000
+실행:  python yolo_server.py        -> http://127.0.0.1:5000
 """
 import os
 

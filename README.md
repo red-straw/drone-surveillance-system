@@ -2,7 +2,7 @@
 
 CCTV가 보안 구역 침입을 감지하면 **드론이 자동 출동해 YOLO로 침입자를 식별·추적**하는 Unity 시뮬레이션입니다.
 
-`25-2` · 팀 프로젝트
+`25-2` · 개인 프로젝트
 
 <p>
   <img src="docs/images/intrusion_dispatch.png" width="49%">
@@ -95,6 +95,6 @@ Unity 6 (C#, URP) · Python · Flask · Ultralytics YOLOv8 · Docker
 
 ## 라이선스
 
-- `unity/`: 팀 프로젝트 결과물로, 저작권은 팀원 공동에게 있습니다. 포트폴리오 열람 목적으로 공개하며 별도의 사용 허가는 부여하지 않습니다.
-- `server/`: [AGPL-3.0](server/LICENSE) — Ultralytics YOLO(AGPL-3.0) 사용
+- `unity/` 등 저장소 전체: [MIT](LICENSE)
+- `server/`: [AGPL-3.0](server/LICENSE) — Ultralytics YOLO(AGPL-3.0)를 사용하므로 이 폴더만 AGPL-3.0
 - 에셋 스토어 에셋·폰트는 각 제공자의 라이선스를 따르며 저장소에 포함하지 않았습니다.

@@ -1,0 +1,20 @@
+# 줄바꿈을 LF로 통일 (Windows 자동 변환 경고 방지)
+* text=auto eol=lf
+
+# Visual Studio / Windows 전용 파일은 CRLF 유지
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.bat text eol=crlf
+
+# 바이너리
+*.rc binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.pptx binary
+*.aab binary
+*.fzz binary
+*.pt binary
